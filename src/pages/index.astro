@@ -32,33 +32,31 @@ const work = await Promise.all(
 
 <PageLayout title={HOME.TITLE} description={HOME.DESCRIPTION}>
   <Container>
-    <h4 class="animate font-semibold text-black dark:text-white">
-      Hi, I'm Nano <span class="text-xl">👋🏻</span> 
-    </h4>
+    <div class="animate flex items-center gap-6 mb-4">
+      <img
+        src="/avatar.jpg"
+        alt="Marvin Lowrance"
+        class="rounded-full w-20 h-20 object-cover"
+      />
+      <h4 class="font-semibold text-black dark:text-white">
+        Hi, I'm Marvin 
+      </h4>
+    </div>
     <div class="space-y-16">
       <section>
         <article class="space-y-4">
           <p class="animate">
-            I am a minimal, seo friendly, accessible portfolio and blog for developers. 
-            I am an even more lightweight version of my popular theme
-            <Link href="https://github.com/markhorn-dev/astro-sphere" aria-label="Astro Sphere on Github" external>
-              Astro Sphere
-            </Link>.
-            I have a lighthouse scores of 100 across the board for performance, 
-            accesibility, best practices and SEO.
-          </p>
-          <p class="animate">
-            I come packed with full type safety, a sitemap, an rss feed, markdown 
-            and mdx support (use components in your markdown) through astro integrations.
-            I am styled with tailwind and come preconfigured with light, dark and 
-            system/os theme preferences out of the box.
-          </p>
-          <p class="animate">
-            Visit
-            <Link href="https://github.com/markhorn-dev/astro-nano" aria-label="Astro Nano on Github" external>
-              Astro Nano on Github
+            I'm an Engineering Leader, Technical Architect, and Founder with over a decade of experience building scalable software systems across GovTech, HealthTech, and EdTech. I founded
+            <Link href="https://i2itechs.com" aria-label="Idea2Impact Tech Solutions" external>
+              Idea2Impact Tech Solutions
             </Link>
-            to fork the repository, read the docs or one-click deploy on Vercel or Netlify. 
+            — a software consulting and systems integration firm focused on platforms that transform how cities, health organizations, and educational institutions operate.
+          </p>
+          <p class="animate">
+            Before software engineering, I spent 8 years as a professional baseball player — 7 years in the Washington Nationals organization and 1 year with the Los Angeles Angels. The discipline, consistency, and relentless pursuit of improvement I developed as an athlete directly informs how I lead engineering teams and build products.
+          </p>
+          <p class="animate">
+            I hold a Bachelor of Science in Computer Science from the University of California, Irvine.
           </p>
         </article>
       </section>
@@ -66,7 +64,7 @@ const work = await Promise.all(
       <section class="animate space-y-6">
         <div class="flex flex-wrap gap-y-2 items-center justify-between">
           <h5 class="font-semibold text-black dark:text-white">
-            Latest posts
+            Writing
           </h5>
           <Link href="/blog">
             See all posts
